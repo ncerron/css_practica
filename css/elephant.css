@@ -1,0 +1,255 @@
+.container {
+    background-color: rgb(176, 214, 179);
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(165, 161, 161);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border: 1px solid rgb(67, 66, 66);
+    box-shadow: inset -12px 0px 0px rgba(128, 124, 124, 0.66);
+}
+
+.body {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(165, 161, 161);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(67, 66, 66);
+    box-shadow: inset -12px 0px 0px rgba(128, 124, 124, 0.66);
+}
+
+.feet-container {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    top: 78%;
+    left: 40%;
+}
+
+.foot {
+    width: 60px;
+    height: 40px;
+    border-radius: 60px 60px 0 0;
+    background: rgb(165, 161, 161);
+    border: 1px solid rgb(67, 66, 66);
+    box-shadow: inset -12px 0px 0px rgba(128, 124, 124, 0.66);
+}
+
+.foot.foot_left{
+    float: left;
+}
+
+.foot.foot_right{
+    float: right;
+}
+
+.ears-container {
+    width: 260px;
+    height: 130px;
+    position: absolute;
+    top: 22%;
+    left: 28%;
+    z-index: 1;
+}
+
+.ear{
+    width: 100px;
+    height: 130px;
+    border-radius: 50%;
+    background: rgb(165, 161, 161);
+    border: 1px solid rgb(67, 66, 66);
+    box-shadow: inset 0px 12px 0px rgba(128, 124, 124, 0.66);
+}
+
+.ear.left-ear{
+    float: left;
+}
+
+.ear.right-ear{
+    float: right;
+}
+
+.finger-container {
+    position: absolute;
+    width: 60px;
+    height: 12px;
+    top: 57%;
+    left: 0.5%;
+}
+
+.finger {
+    width: 18px;
+    height: 12px;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid rgb(67, 66, 66);
+    background-color: rgb(193, 188, 188);
+}
+
+.finger_one{
+    float: left;
+}
+
+.finger_two{
+    float: right;
+}
+
+.finger_three{
+    float: right;
+}
+
+.finger-container-right{
+    position: absolute;
+    width: 60px;
+    height: 12px;
+    top: 57%;
+    left: 53%;
+}
+
+.eye-container{
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    top: 35%;
+    left: 43%;
+    z-index: 2;
+}
+
+.eye{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(12, 12, 12);
+}
+
+.left-eye{
+    float: left;
+}
+
+.right-eye{
+    float: right;
+}
+
+.white{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(247, 244, 244);
+}
+
+.white.left{
+    position: absolute;
+    top: 13%;
+    left: 3%;
+}
+
+.white.right{
+    position: absolute;
+    top: 13%;
+    left: 80%;
+}
+
+
+.hair-container{
+    width: 212px;
+    height: 47px;
+    top: 17.5%;
+    left: 47%;
+    position: absolute;
+}
+
+.hair1{
+    width: 20px;
+    height: 8px;
+    border-bottom: 2px solid rgb(113, 110, 110);
+    transform: rotate(45deg);
+}
+
+.hair2{
+    margin-left: 10px;
+    width: 23px;
+    height: 14px;
+    border-bottom: 2px solid rgb(113, 110, 110);
+    transform: rotate(90deg);
+}
+
+.hair3{
+    margin-top: -22px;
+    margin-left: 15px;
+    width: 20px;
+    height: 8px;
+    border-bottom: 2px solid rgb(113, 110, 110);
+    transform: rotate(130deg); 
+}
+
+.trunk-container{
+    z-index: 3;
+    width: 50px;
+    height: 100px;
+    top: 48%;
+    left: 46%;
+    position: absolute;
+}
+
+.thunk{
+    width: 53px;
+    height: 102px;
+    border-top: 50px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 42px;
+    background: rgb(67, 66, 66);
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 25% 100%);
+}
+    
+.thunk-line{
+    margin-left: 1.5px;
+    width: 50px;
+    height: 100px;
+    border-top: 50px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 42px;
+    background:  rgb(165, 161, 161);
+    box-shadow: inset -8px 0px 0px rgba(128, 124, 124, 0.66);
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 25% 100%);
+}
+
+.tail-container{
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    top: 55%;
+    left: 60%;
+}
+
+.tail {
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset -12px 5px 0 3px rgb(67, 66, 66);
+    transform: rotate(150deg);
+}
+
+.tail2 {
+    margin-top: -51px;
+    margin-left: 8px;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset -10px 5px 0 3px rgb(165, 161, 161);
+    transform: rotate(161deg);
+}

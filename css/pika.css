@@ -1,0 +1,94 @@
+
+#pika-1 {
+    background-color: yellow;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+#eye-container {
+    width: 280px;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+
+#circle-open-eye {
+    float: right;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: black;
+}
+
+#circle-white-eye{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(249, 248, 248);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#circle-close-eye {
+    float: left;
+    width: 70px;
+    height: 40px;
+    border-top: 7px solid black;
+    margin-top: 25px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+#nose {
+    width: 25px;
+    height: 15px;
+    border-radius: 40px;
+    background: black;
+    position: absolute;
+    /* centraliza el contenedor */
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cheek-container {
+    width: 360px;
+    height: 70px;
+    position: absolute;
+    /* centraliza el contenedor */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cheek1 {
+    float: right;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(231, 152, 5);
+}
+
+#cheek2 {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(231, 152, 5);
+}
+
+#smile{
+    width: 140px;
+    height: 20px;
+    border-bottom: 3px solid black;
+    margin-top: 25px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    /* centraliza el contenedor */
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
