@@ -1,0 +1,230 @@
+body {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#woman {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    background-color: rgba(249, 231, 192, 0.68);
+}
+
+.hair-top {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: black;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hair1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 20%, rgb(251 239 213) 20%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset -26px 26px 0px rgba(0, 0, 0, 1);
+}
+
+.hair2 {
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: black;
+    top: 30%;
+    left: 18%;
+    transform: rotate(-20deg);
+}
+
+.glasses {
+    width: 150px;
+    height: 55px;
+    position: absolute;
+    top: 49%;
+    left: 25%;
+}
+
+.glasses-left {
+    float: left;
+}
+
+.circle-ext-left {
+    width: 65px;
+    height: 65px;
+    background-color: rgb(250, 180, 27);
+    border-radius: 50%;
+}
+
+.circle-int-left {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+.glasses-right {
+    float: right;
+}
+
+.circle-ext-right {
+    width: 65px;
+    height: 65px;
+    background-color: rgb(250, 180, 27);
+    border-radius: 50%;
+}
+
+.circle-int-right {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+
+.union {
+    position: absolute;
+    width: 35px;
+    height: 10px;
+    background-color: rgb(250, 180, 27);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.mouth-container {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lips-down {
+    width: 38px;
+    height: 14px;
+    margin-top: 26px;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(0deg, red 70%, transparent 70%);
+
+}
+
+.lips-up-left {
+    position: absolute;
+    width: 17px;
+    height: 6px;
+    background-color: red;
+    border-radius: 0 80% 0 80%;
+    border-bottom:solid 5px red; 
+    transform: rotate(-30deg);
+    top: 25px;
+    left: 1.7px;
+}
+
+.lips-up-right {
+    position: absolute;
+    width: 17px;
+    height: 6px;
+    background-color: red;
+    border-radius: 80% 0 80% 0;
+    border-bottom:solid 5px red; 
+    transform: rotate(30deg);
+    top: 25px;
+    left: 19px;
+} 
+
+.necklace-container {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-file {
+    margin-left: 85px;
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 14px 5px 0 0px black,
+        28px 10px 0 0px black,
+        43px 10px 0 0px black,
+        57px 7px 0 0px black,
+        70px 0px 0 0px black;
+}
+
+.second-file {
+    margin-left: 85px;
+    margin-top: 2px;
+}
+
+.third-file {
+    margin-left: 83px;
+    margin-top: 2px; 
+}
+
+.circle-third {
+   width: 15px;
+    height: 15px; 
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 15px 5px 0 0px black,
+        30px 10px 0 0px black,
+        46px 10px 0 0px black,
+        61px 7px 0 0px black,
+        75px 0px 0 0px black;
+}
+
+.fourth-file {
+    margin-left: 78px;
+    margin-top: 2px;
+}
+
+.circle-fourth {
+    width: 17px;
+    height: 17px;
+    background-color: rgb(236, 162, 34);
+    border-radius: 50%;
+    box-shadow: 17px 5px 0 0px rgb(236, 162, 34),
+        34px 10px 0 0px rgb(236, 162, 34),
+        52px 10px 0 0px rgb(236, 162, 34),
+        69px 7px 0 0px rgb(236, 162, 34),
+        85px 0px 0 0px rgb(236, 162, 34);
+}
+
+.fifth-file {
+    margin-left: 66px;
+    margin-top: 2px;
+}
+
+.circle-fifth {
+    width: 21px;
+    height: 21px;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 21px 5px 0 0px black,
+        42px 10px 0 0px black,
+        64px 10px 0 0px black,
+        86px 7px 0 0px black,
+        106px 0px 0 0px black;
+}

@@ -1,7 +1,12 @@
+body{
+    max-width: 650px;
+    margin:0 auto;
+}
 #bear {
     width: 650px;
     height: 400px;
     position: relative;
+    
 }
 
 #ear-top-left {

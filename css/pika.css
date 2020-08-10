@@ -1,3 +1,7 @@
+body{
+    max-width: 600px;
+    margin:0 auto;
+}
 
 #pika-1 {
     background-color: yellow;
