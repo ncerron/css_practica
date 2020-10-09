@@ -166,7 +166,6 @@ body{
     left: 80%;
 }
 
-
 .hair-container{
     width: 212px;
     height: 47px;
@@ -226,7 +225,7 @@ body{
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 42px;
     background:  rgb(165, 161, 161);
-    box-shadow: inset -8px 0px 0px rgba(128, 124, 124, 0.66);
+    /* box-shadow: inset -8px 0px 0px rgba(128, 124, 124, 0.66); */
     clip-path: polygon(0 0, 100% 0, 78% 100%, 25% 100%);
 }
 
